@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>16 Step Sequencer</title>
+</head>
+<body>
+    <div id="main-container" class="main-container">
+        <div id="step-keys-container">
+            <button id="kick" class="kick" data-analogue="kick"></button>
+            <audio id="kick-sample" class="kick-sample" data-sample="kick" src="/sounds/Kick-Stem.wav"></audio>
+
+            <button id="snare" class="snare" data-analogue="snare"></button>
+            <audio id="snare-sample" class="snare-sample" data-sample="snare-sample" src="/sounds/Snare-Stem.wav"></audio>
+
+            <button id="lo-tom" class="lo-tom" data-analogue="lo-tom"></button>
+            <audio id="loTom-sample" class="loTom-sample" data-sample="loTom-sample" src="/sounds/LoTom-Stem.wav"></audio>
+
+            <button id="hi-tom" class="hi-tom" data-analogue="hi-tom"></button>
+            <audio id="hiTom-sample" class="hiTom-sample" data-sample="hiTom-sample" src="/sounds/HiTom-Stem.wav"></audio>
+
+            <button id="cl-hat" class="cl-hat" data-analogue="cl-hat"></button>
+            <audio id="clHat-sample" class="clHat-sample" data-sample="clHat-sample" src="/sounds/ClHat-Stem.wav"></audio>
+            
+            <button id="op-hat" class="op-hat" data-analogue="op-hat"></button>
+            <audio id="opHat-sample" class="opHat-sample" data-sample="opHat-sample" src="/sounds/OH-Stem.wav"></audio>
+
+            <button id="clap" class="clap" data-analogue="clap"></button>
+            <audio id="clap-sample" class="clap-sample" data-sample="clap-sample" src="/sounds/Clap-Stem.wav"></audio>
+
+            <button id="claves" class="claves" data-analogue="claves"></button>
+            <audio id="claves-sample" class="claves-sample" data-sample="claves-sample" src="/sounds/Claves-Stem.wav"></audio>
+
+            <button id="agogo" class="agogo" data-analogue="agogo"></button>
+            <audio id="agogo-sample" class="agogo-sample" data-sample="agogo-sample" src="/sounds/Agogo-Stem.wav"></audio>
+
+            <button id="crash" class="crash" data-analogue="crash"></button>
+            <audio id="crash-sample" class="crash-sample" data-sample="crash-sample" src="/sounds/Crash-Stem.wav"></audio>
+
+            <button class="stutter" data-motion-rec="stutter"></button>
+            <button class="speed" data-motion-rec="speed"></button>
+
+            <button class="global-stutter" data-global-stutter="global-stutter"></button>
+
+            <button class="active-step" data-clear-part="active-step"></button>
+            <button class="clear-part" data-clear-part="clear-part"></button>
+            <button class="clear-all" data-clear-part="clear-all"></button>
+
+        </div>
+        
+    </div>
+
+    <script type="text/javascript" src="/src/app.js"></script>
+</body>
+</html>
